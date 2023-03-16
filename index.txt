@@ -1,0 +1,31 @@
+<main>
+  <h1>Gem puzzle</h1>
+  <div class="controls">
+    <button class="button action" data-action="start">Start</button>
+    <button class="button action" data-action="save">Save</button>
+    <button class="button action" data-action="restore">Restore</button>
+    <button class="button action" data-action="sound">Sound</button>
+    <button class="button action" data-action="score">Score</button>
+  </div>
+  <div class="indicators">
+    <span class="moves">
+      <span class="label">Moves:</span>
+      <span class="value"></span>
+    </span>
+    <span class="time">
+      <span class="label">Time:</span>
+      <span class="value"></span>
+    </span>
+  </div>
+  <div class="field"></div>
+  <div class="size-buttons">
+    <span class="label">Size:</span>
+    <button class="button size" data-size="2">2x2</button>
+    <button class="button size" data-size="3">3x3</button>
+    <button class="button size active" data-size="4">4x4</button>
+    <button class="button size" data-size="5">5x5</button>
+    <button class="button size" data-size="6">6x6</button>
+    <button class="button size" data-size="7">7x7</button>
+    <button class="button size" data-size="8">8x8</button>
+  </div>
+</main>
